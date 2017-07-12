@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: ADNGVIKceodSPZn5pjsAkcv5GgJWL+PXaOxbiSQl4rHPo1o522vCODGpgtobYdkfLpL5f1n2w2yHF5f+wtuPMYr8ayC2iw5dqTLSP7z72HbehSmhCzeT/KuwX7d2RZQ0b+1uj+V7bbG4qtk7WM6D4WGW6ZzUhPMZql2/iAHJE5cfjrq9XpCD5boTT3xMl8wUkWec47paK/RR+F14bsDqPPnzRJzX5VhJaWqZ2m5j5NyojTRbTOEaCnh0iXZVrJfxigpUCcvxBJhHCnkR4HAKJ3lWXgkPcWN7AVk1Ay+n3cl1sPOHpNKnVp1Qa/T2ViuaSjZJcwiKARXRhyH+DG0JzRZi56TB7vf6ov1x4MNj0mzpsQ8nrLq0VP9oX/YKWEuzb2DK+pt9q/gfcEGFuCtN5psw8htVtZzZislrbFzXSfIEkG2eSIdkdfc1A+ESm9MuJcrmZwDFPL7WC5RNIWL3Jqgd3NNnq/eGnEuZ/TeN5DaVWQ2xgE356K0b3qPwDxEfKQBUkoSQBHWmJr0l/0RBHCsvv/FYwj+k4Gd0UpufLRcSfxJadDQd/6eDa1gRjQuLgLeDoQNTuQUDoWG/YEosvAkv4cOqtgG5itYczuTny8P3l208mBDRd/bN55CR34E1FCLwjE8X65SOu+35dyI8EE3eVjJhtZnf2sRGIP9CSnw=
+  app: shielded-journey-91972
+  on:
+    repo: LeCatalyser/thinkful_node-restaurants-app-mongoose
